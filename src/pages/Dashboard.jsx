@@ -1,10 +1,6 @@
-import { base44 } from "../api/base44Client";
-import { Button } from "../components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Dialog } from "@/components/ui/dialog";
 import { useState, useEffect, useMemo } from "react";
-import { base44 } from "@/api/base44Client";
-import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { base44 } from "../api/base44Client"; // Correct relative path, declared only once
+import { Tabs, TabsList, TabsTrigger } from "../components/ui/tabs"; // Updated path reference
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, LineChart, Line, Legend } from "recharts";
 import { format, eachDayOfInterval, startOfWeek, eachMonthOfInterval, subYears, subDays } from "date-fns";
 import { Link } from "react-router-dom";
