@@ -1,3 +1,7 @@
+import { base44 } from "../api/base44Client";
+import { Button } from "../components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Dialog } from "@/components/ui/dialog";
 import { useState, useEffect, useMemo } from "react";
 import { base44 } from "@/api/base44Client";
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
